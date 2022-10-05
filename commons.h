@@ -8,6 +8,9 @@
 #include <algorithm>
 #include "exceptions.h"
 
+//commons - утилитная штука, чтобы было проще проверять работу проги и смотреть че как работает.
+//Его можно в любой момент переписать на реальную ситуацию, чтобы он обрабатывал инфу нового подключения
+
 const std::string names[] = {"igor", "volodya", "emir", "peter", "mark"};
 const int MAX_NAMES_AMOUNT = 5;
 
